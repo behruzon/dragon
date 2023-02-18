@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.drag-wrapper{
+    display: flex;
+    gap: 50px    ;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.item{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.pacman{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.hide{
+    display: none;
+}
+.hovered{
+    background-color: aqua;
+}
